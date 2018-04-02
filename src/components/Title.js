@@ -1,7 +1,5 @@
 import React from 'react';
 
-const Title = props => (
-			<h1>{props.title}</h1>
-);
+const Title = props => <div><h1>{props.title}</h1><h3>number of tasks: {props.length}</h3></div>;
 
 export default Title;
